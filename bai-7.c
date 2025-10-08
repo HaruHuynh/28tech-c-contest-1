@@ -9,6 +9,7 @@ int main() {
         y = a;
     }else{
         y = (a/b + 1) * b; // Neu a khong phai boi cua b => Lay boi ke tiep
+        // y = ((a+b-1)/b) * b;
     }
     printf("%d %d\n", x, y);
     return 0;
